@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/* CSS Document */
+p {
+  color: yellow;
+  font-family: 'Courier New', Courier, monospace;
+  font-size:18px;
+  line-height: 20px;
+  width: 300px;
+  background-color: green;
+  padding: 30px;
+  }
+
+ h1,h2 {
+  font-family: "Arial", Helvetica, sans-serif;
+  color: green;
+}
+
+a {
+  font-family: 'Courier New', Courier, monospace;
+  padding:20px;
+  margin:40px;
+  width:30%;
+}
+
+.pozadina {
+  background-image: url("slike/pozadina.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+a:link {
+  color: black;
+  background-color: white;
+  padding: 5px;
+  line-height: 40px;
+  border: 1px solid #000000;
+
+}
+
+a:hover {
+  background-color: green;
+}
+
+img {
+  height: 200px;
+}
